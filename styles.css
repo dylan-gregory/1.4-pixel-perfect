@@ -3,6 +3,7 @@
  */
 body{
   font-family: 'Open Sans', helvetica, sans-serif;
+  width: 1300px;
 }
 
 h1, h2, h3{
@@ -154,6 +155,7 @@ header h4 {
   box-sizing: border-box;
 }
 
+
 .body-left{
   display: inline-block;
   width: 860px;
@@ -170,10 +172,9 @@ header h4 {
   display: inline-block;
   width: 440px;
   height: 1006px;
-  position: absolute;
-  top: 550px;
-  right: 0px;
-
+  float: right;
+  padding-right: 161px;
+  padding-top: 83px;
 }
 
 .body-body{
@@ -208,4 +209,64 @@ h2, h3{
   border-left: 2px solid #E3E3E3;
   padding-top: 17px;
   padding-left: 17px;
+}
+
+.comment-share{
+  display: inline-block;
+  width: 500px;
+  height: 35px;
+}
+
+.comment{
+  color: white;
+  background-color: #A2B3BE;
+  display: inline-block;
+  width: 158px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.read {
+  color: white;
+  display: inline-block;
+  height: 30px;
+  width: 128px;
+  background-color: #A2B3BE;
+}
+
+.share {
+  color: white;
+  display: inline-block;
+  height: 30px;
+  width: 154px;
+  background-color: #006FAE;
+}
+
+.author-tag img{
+  border-radius: 42px;
+  margin-left: 98px;
+}
+
+.author-tag-name {
+  text-align: center;
+}
+
+.author-social ul{
+  display: inline-block;
+}
+
+li{
+  display: inline-block;
+}
+
+.ad-photo span{
+  float: right; /* this COULD be changed? */
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+
+.author-name img{
+  border-radius: 11px;
 }
