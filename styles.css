@@ -270,3 +270,42 @@ li{
 .author-name img{
   border-radius: 11px;
 }
+
+.foot-body {
+  display: inline-block;
+  width: 1300px;
+  height: 330px;
+  padding: 0;
+}
+
+.foot-body span{
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+
+.foot-body section{
+  display: inline-block;
+  margin: 0;
+  height: 330px;
+  width: 325px;
+  background-image: url('https://unsplash.it/325/330');
+  position: relative;
+}
+
+/*.foot-ph2{
+  display: inline-block;
+  position: relative;
+  left: -5px;
+}
+
+.foot-ph3 {
+  display: inline-block;
+  position: relative;
+  left: -10px;
+}
+
+.foot-ph4 {
+  display: inline-block;
+  position: relative;
+} */
