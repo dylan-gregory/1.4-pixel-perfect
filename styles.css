@@ -149,3 +149,63 @@ header h4 {
   font-size: 15px;
   letter-spacing: -1px;
 }
+
+*{
+  box-sizing: border-box;
+}
+
+.body-left{
+  display: inline-block;
+  width: 860px;
+  height: 1006px;
+  position: relative;
+  top: 0px;
+  left: 0;
+  padding-left: 163px;
+  padding-right: 42px;
+
+}
+
+.body-right{
+  display: inline-block;
+  width: 440px;
+  height: 1006px;
+  position: absolute;
+  top: 550px;
+  right: 0px;
+
+}
+
+.body-body{
+  width: 604px;
+}
+
+.body-left h1{
+  display: inline-block;
+  font-size: 46px;
+  height: 126px;
+  width: 570px;
+  margin-top: 70px;
+  padding-bottom: 0px;
+}
+
+.body-foot h1{
+  text-align: center;
+}
+
+.author-deets{
+  display: inline-block;
+  margin-top: 0;
+}
+
+h2, h3{
+  color: #006FAE;
+  font-weight: lighter;
+}
+.interject h2{
+  vertical-align: middle;
+  height: 56px;
+  border-left: 2px solid #E3E3E3;
+  padding-top: 17px;
+  padding-left: 17px;
+}
