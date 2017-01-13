@@ -210,8 +210,11 @@ p {
   text-align: center;
   border-top: 1px solid #C3C3C3;
   font-size: 56px;
-padding-top: 43px;
+  padding-top: 43px;
   color: #033550;
+  letter-spacing: 4px;
+  margin: 0;
+  margin-bottom: 41px;
 }
 
 .author-deets{
@@ -303,7 +306,7 @@ h2, h3{
 }
 
 .words{
-  font-size: 10px;
+  font-size: 12px;
 
 
 }
@@ -315,9 +318,10 @@ h2, h3{
 
 .author-tag-name {
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   color: #006FAE;
-  margin-top: 16px;
+  margin-top: 13px;
+  margin-bottom: -9px;
 }
 
 .author-social ul{
@@ -340,11 +344,11 @@ li{
   bottom: 0;
   right: 0;
   color: #B9C6CE;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .ad-photo img{
-  margin-top: 55px;
+  margin-top: 40px;
 
 }
 
@@ -372,6 +376,8 @@ li{
   position: relative;
   right: 0;
   bottom: 0;
+  padding-left: 15px;
+
 }
 
 .foot-body section{
@@ -379,11 +385,11 @@ li{
   margin: 0;
   height: 330px;
   width: 325px;
-  background-image: url('https://unsplash.it/325/330');
+  /*background-image: url('https://unsplash.it/325/330');*/
   position: relative;
   float: right;
   padding-top: 300px;
-  color: white; /* for now, to see it */
+  color: black; /* for now, to see it */
 }
 
 
@@ -440,20 +446,54 @@ li{
   font-size: 11px;
 }
 
+.last-p {
+  margin-bottom: 40px;
+}
 
-/*.foot-ph2{
-  display: inline-block;
-  position: relative;
-  left: -5px;
+
+.foot-ph1{
+  background-image: url('http://fillmurray.com/325/330');
+  font-family: 'Oswald';
+}
+
+.foot-ph2 {
+  background-image: url('https://unsplash.it/325/330');
+  font-family: 'Oswald';
 }
 
 .foot-ph3 {
-  display: inline-block;
-  position: relative;
-  left: -10px;
+  background-image: url('http://placecage.com/c/325/330');
+  font-family: 'Oswald';
 }
 
 .foot-ph4 {
-  display: inline-block;
-  position: relative;
-} */
+  background-image: url('http://baconmockup.com/325/330');
+  font-family: 'Oswald';
+  letter-spacing: 1px;
+}
+
+.media {
+  border-right: 2px solid #E3E3E3;
+  padding-right: 8px;
+}
+
+.author-social ul{
+  margin-left: 5px;
+  color: #A2B3BE;
+  font-size: 12px;
+}
+
+#med {
+  margin-left: 9px;
+}
+
+.foot-body ::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(28, 107, 174, 0.5);
+}
