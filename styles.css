@@ -58,7 +58,7 @@ nav::after {
 .branding {
   float: left;
   margin-top: 6px;
-  margin-left: 14px;
+  margin-left: -4px;
 }
 
 .branding h2 {
@@ -104,10 +104,12 @@ nav::after {
   font-size: 15px;
 }
 
+
 .header-links li:first-child {
   position: relative;
-  top: -1px;
+
 }
+
 
 .header-links li span {
   display: inline-block;
@@ -116,13 +118,14 @@ nav::after {
   letter-spacing: -0.5px;
 }
 
+
 .header-links li span,
 .header-links li img {
   vertical-align: middle;
 }
 
-.header-links li img {
-  margin-left: 4px;
+.header-links li i{
+  margin-left: 12px;
   position: relative;
   top: 1px;
   right: 3px;
@@ -138,11 +141,10 @@ header h1 {
   text-shadow: 0 2px 4px rgba(17, 52, 79, 1);
   text-transform: uppercase;
   margin: 150px 0 0 0;
-
+  letter-spacing: 9px;
   font-size: 104px;
   line-height: 104px;
   font-weight: 400;
-  letter-spacing: -3px;
 }
 
 header h4 {
@@ -157,8 +159,10 @@ header h4 {
 }
 
 p {
-  font-size: 15;
-  line-height: 25px;
+  font-size: 14;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 26px;
 
 }
 
@@ -190,20 +194,23 @@ p {
 
 .body-left h1{
   display: inline-block;
-  font-size: 46px;
+  font-size: 56px;
   height: 126px;
-  width: 570px;
+  width: 571px;
+  letter-spacing: 2px;
   margin-top: 70px;
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 13px;
   color: #033550;
 }
+
+
 
 .body-foot h1{
   text-align: center;
   border-top: 1px solid #C3C3C3;
   font-size: 56px;
-  padding-top: 43px;
+padding-top: 43px;
   color: #033550;
 }
 
@@ -214,6 +221,7 @@ p {
   margin-top: 0;
   vertical-align: middle;
   margin-bottom: 42px;
+  margin-left: 3px;
 }
 
 .name {
@@ -227,16 +235,20 @@ h2, h3{
   font-weight: lighter;
 }
 .interject h2{
-  font-size: 27px;
+  font-family: 'Helvetica' , sans-serif;
+  font-size: 26px;
   vertical-align: middle;
   height: 56px;
   border-left: 2px solid #E3E3E3;
   padding-top: 17px;
-  padding-left: 17px;
+  padding-left: 18px;
+  margin-left: 5px;
 }
 
 .comment-share{
   display: inline-block;
+  position: relative;
+  bottom: 0;
   width: 500px;
   height: 35px;
 }
@@ -247,8 +259,7 @@ h2, h3{
   display: inline-block;
   width: 158px;
   height: 30px;
-  margin: 0;
-  padding: 0;
+
 }
 
 .read {
@@ -288,7 +299,12 @@ h2, h3{
 
 .comment-share i{          /* may need to do indivicually for each icon*/
   max-width: 100%;
-  padding-top: 6px;
+  padding-top: 5px;
+}
+
+.words{
+  font-size: 10px;
+
 
 }
 
@@ -299,15 +315,24 @@ h2, h3{
 
 .author-tag-name {
   text-align: center;
+  font-size: 15px;
+  color: #006FAE;
+  margin-top: 16px;
 }
 
 .author-social ul{
   display: inline-block;
+  font-size: 12px;
+}
+.author-social {
+
 }
 
 li{
   display: inline-block;
 }
+
+
 
 .ad-photo span{
   float: right; /* this COULD be changed? */
@@ -315,12 +340,25 @@ li{
   bottom: 0;
   right: 0;
   color: #B9C6CE;
-  font-size:
+  font-size: 10px;
+}
+
+.ad-photo img{
+  margin-top: 55px;
+
 }
 
 .author-name img{
   border-radius: 11px;
 }
+
+
+
+.body-foot{
+  font-size: 0;
+}
+
+
 
 .foot-body {
   display: inline-block;
@@ -330,6 +368,7 @@ li{
 }
 
 .foot-body span{
+  font-size: 26px;
   position: relative;
   right: 0;
   bottom: 0;
@@ -347,6 +386,7 @@ li{
   color: white; /* for now, to see it */
 }
 
+
 .foot-nav {
   position: relative;
   top: 0;
@@ -356,6 +396,7 @@ li{
 }
 
 .copyright {
+  font-size: 15px;
   display: inline-block;
   position: relative;
   top: 43px;
@@ -363,6 +404,7 @@ li{
 }
 
 .nav-links {
+  font-size: 15px;
   display: inline-block;
   float: right;
   margin-right: 157px;
@@ -385,6 +427,19 @@ li{
   margin-left: 157px;
   margin-top: 17px;
 }
+
+.sidebar {
+  padding-top: 51px;
+}
+
+.sidebar h3{
+  font-size: 16px;
+}
+
+.sidebar p{
+  font-size: 11px;
+}
+
 
 /*.foot-ph2{
   display: inline-block;
