@@ -155,6 +155,12 @@ header h4 {
   box-sizing: border-box;
 }
 
+p {
+  font-size: 10;
+  line-height: 23px;
+
+}
+
 
 .body-left{
   display: inline-block;
@@ -192,6 +198,10 @@ header h4 {
 
 .body-foot h1{
   text-align: center;
+  border-top: 1px solid #C3C3C3;
+  font-size: 56px;
+  padding-top: 43px;
+  color: #033550;
 }
 
 .author-deets{
@@ -243,6 +253,29 @@ h2, h3{
   background-color: #006FAE;
 }
 
+.logo-box {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 30px;
+  background-color: #5D686E;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo-box span{
+  font: 11px;
+  text-align: center;
+}
+
+.comment-share i{          /* may need to do indivicually for each icon*/
+  max-width: 100%;
+  padding-top: 6px;
+
+}
+
 .author-tag img{
   border-radius: 42px;
   margin-left: 98px;
@@ -291,6 +324,46 @@ li{
   width: 325px;
   background-image: url('https://unsplash.it/325/330');
   position: relative;
+  float: right;
+  padding-top: 300px;
+  color: white; /* for now, to see it */
+}
+
+.foot-nav {
+  height: 97px;
+  background-color: #033550;
+
+}
+
+.copyright {
+  display: inline-block;
+  position: relative;
+  top: 43px;
+  color: #A2B3BE;
+}
+
+.nav-links {
+  display: inline-block;
+  float: right;
+  margin-right: 157px;
+  padding: 0;
+  margin-top: 43px;
+  color: #A2B3BE;
+}
+
+.nav1 , .nav2 , .nav3 {
+  border-right: 1px solid #C3C3C3;
+  padding-right: 8px;
+}
+.nav2 , .nav3 , .nav4 {
+  padding-left: 9px;
+}
+
+
+.foot-nav img{
+  float: left;
+  margin-left: 157px;
+  margin-top: 17px;
 }
 
 /*.foot-ph2{
