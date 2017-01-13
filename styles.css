@@ -487,7 +487,7 @@ li{
   margin-left: 9px;
 }
 
-.foot-body ::before{
+.foot-ph1::before{
   content: '';
   display: block;
   position: absolute;
@@ -496,4 +496,40 @@ li{
   left: 0;
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
+}
+.foot-ph2::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(28, 107, 174, 0.5);
+}
+
+.foot-ph3::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(28, 107, 174, 0.5);
+}
+
+.foot-ph4::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(28, 107, 174, 0.5);
+}
+
+:hover + ::before{ /* This uncovers the wrong item for some reason?!?!?! */
+  display: none;
 }
