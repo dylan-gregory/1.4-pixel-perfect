@@ -62,6 +62,7 @@ nav::after {
 }
 
 .branding h2 {
+  color: black;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -156,8 +157,8 @@ header h4 {
 }
 
 p {
-  font-size: 10;
-  line-height: 23px;
+  font-size: 15;
+  line-height: 25px;
 
 }
 
@@ -194,6 +195,8 @@ p {
   width: 570px;
   margin-top: 70px;
   padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: #033550;
 }
 
 .body-foot h1{
@@ -206,7 +209,17 @@ p {
 
 .author-deets{
   display: inline-block;
+  font-size: 15px;
+  position: relative;
   margin-top: 0;
+  vertical-align: middle;
+  margin-bottom: 42px;
+}
+
+.name {
+  font-size: 15px;
+  margin-left: 8px;
+  padding-bottom: 10px;
 }
 
 h2, h3{
@@ -214,6 +227,7 @@ h2, h3{
   font-weight: lighter;
 }
 .interject h2{
+  font-size: 27px;
   vertical-align: middle;
   height: 56px;
   border-left: 2px solid #E3E3E3;
@@ -243,6 +257,7 @@ h2, h3{
   height: 30px;
   width: 128px;
   background-color: #A2B3BE;
+  margin-left: 10px;
 }
 
 .share {
@@ -251,6 +266,7 @@ h2, h3{
   height: 30px;
   width: 154px;
   background-color: #006FAE;
+  margin-left: 10px;
 }
 
 .logo-box {
@@ -298,6 +314,8 @@ li{
   position: relative;
   bottom: 0;
   right: 0;
+  color: #B9C6CE;
+  font-size:
 }
 
 .author-name img{
@@ -330,6 +348,8 @@ li{
 }
 
 .foot-nav {
+  position: relative;
+  top: 0;
   height: 97px;
   background-color: #033550;
 
