@@ -372,11 +372,12 @@ li{
 }
 
 .foot-body span{
+  display: inline-block;
   font-size: 26px;
   position: relative;
   right: 0;
-  bottom: 0;
-  padding-left: 15px;
+  bottom: 40px;
+  padding-left: 19px;
 
 }
 
@@ -387,8 +388,7 @@ li{
   width: 325px;
   /*background-image: url('https://unsplash.it/325/330');*/
   position: relative;
-  float: right;
-  padding-top: 300px;
+  float: left;
   color: black; /* for now, to see it */
 }
 
@@ -452,22 +452,22 @@ li{
 
 
 .foot-ph1{
-  background-image: url('http://fillmurray.com/325/330');
+  /*background-image: url('http://fillmurray.com/325/330');*/
   font-family: 'Oswald';
 }
 
 .foot-ph2 {
-  background-image: url('https://unsplash.it/325/330');
+  /*background-image: url('https://unsplash.it/325/330');*/
   font-family: 'Oswald';
 }
 
 .foot-ph3 {
-  background-image: url('http://placecage.com/c/325/330');
+  /*background-image: url('http://placecage.com/c/325/330');*/
   font-family: 'Oswald';
 }
 
 .foot-ph4 {
-  background-image: url('http://baconmockup.com/325/330');
+  /*background-image: url('http://baconmockup.com/325/330');*/
   font-family: 'Oswald';
   letter-spacing: 1px;
 }
@@ -487,6 +487,8 @@ li{
   margin-left: 9px;
 }
 
+
+
 .foot-ph1::before{
   content: '';
   display: block;
@@ -496,6 +498,7 @@ li{
   left: 0;
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
+  z-index: 100;
 }
 .foot-ph2::before{
   content: '';
@@ -506,6 +509,7 @@ li{
   left: 0;
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
+  z-index: 100;
 }
 
 .foot-ph3::before{
@@ -517,6 +521,7 @@ li{
   left: 0;
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
+  z-index: 100;
 }
 
 .foot-ph4::before{
@@ -528,8 +533,14 @@ li{
   left: 0;
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
+  z-index: 100;
 }
 
-:hover + ::before{ /* This uncovers the wrong item for some reason?!?!?! */
+
+:hover::before{ /* This uncovers the wrong item for some reason?!?!?! */
   display: none;
+}
+
+.foot-body section:hover{
+  color: white;
 }
