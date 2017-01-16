@@ -219,7 +219,7 @@ p {
 
 .author-deets{
   display: inline-block;
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
   margin-top: 0;
   vertical-align: middle;
@@ -373,11 +373,13 @@ li{
 
 .foot-body span{
   display: inline-block;
-  font-size: 26px;
+  font-size: 28px;
   position: relative;
   right: 0;
-  bottom: 40px;
-  padding-left: 19px;
+  bottom: 50px;
+  padding-left: 17px;
+  letter-spacing: .8px;
+  text-shadow: 0 1px 2px rgba(17, 52, 79, 1);
 
 }
 
@@ -402,21 +404,22 @@ li{
 }
 
 .copyright {
-  font-size: 15px;
+  font-size: 13px;
   display: inline-block;
   position: relative;
-  top: 43px;
+  top: 40px;
   color: #A2B3BE;
 }
 
 .nav-links {
-  font-size: 15px;
+  font-size: 13px;
   display: inline-block;
   float: right;
-  margin-right: 157px;
+  margin-right: 163px;
   padding: 0;
-  margin-top: 43px;
+  margin-top: 40px;
   color: #A2B3BE;
+  text-decoration: none;
 }
 
 .nav1 , .nav2 , .nav3 {
@@ -430,8 +433,8 @@ li{
 
 .foot-nav img{
   float: left;
-  margin-left: 157px;
-  margin-top: 17px;
+  margin-left: 153px;
+  margin-top: 14px;
 }
 
 .sidebar {
@@ -454,22 +457,28 @@ li{
 .foot-ph1{
   /*background-image: url('http://fillmurray.com/325/330');*/
   font-family: 'Oswald';
+  font-size: 26px;
 }
 
 .foot-ph2 {
   /*background-image: url('https://unsplash.it/325/330');*/
   font-family: 'Oswald';
+  letter-spacing: 1px;
+  font-size: 26px;
 }
 
 .foot-ph3 {
   /*background-image: url('http://placecage.com/c/325/330');*/
   font-family: 'Oswald';
+  letter-spacing: 1px;
+  font-size: 26px;
 }
 
 .foot-ph4 {
   /*background-image: url('http://baconmockup.com/325/330');*/
   font-family: 'Oswald';
   letter-spacing: 1px;
+  font-size: 26px;
 }
 
 .media {
@@ -487,7 +496,32 @@ li{
   margin-left: 9px;
 }
 
+.ad-photo >img::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(28, 107, 174, 0.5);
+    z-index: 100;
 
+
+}
+
+.author-tag > img::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(28, 107, 174, 0.5);
+    z-index: 100;
+
+}
 
 .foot-ph1::before{
   content: '';
@@ -536,11 +570,45 @@ li{
   z-index: 100;
 }
 
+.date-time{
+  color: #B9C6CE;
+  font-size: 12px;
+  border-bottom: 1px solid #B9C6CE;
+}
 
-:hover::before{ /* This uncovers the wrong item for some reason?!?!?! */
+
+.name {
+  color: #006FAE;
+}
+
+
+.foot-ph1:hover::before{
   display: none;
 }
+
+.foot-ph2:hover::before{
+ display: none;
+}
+
+.foot-ph3:hover::before{
+ display: none;
+}
+
+.foot-ph4:hover::before{
+ display: none;
+}
+
+
 
 .foot-body section:hover{
   color: white;
 }
+
+
+
+/* I hate visted links that are purple!!! Found this on StackOverflow, and it was kind of a 'duh' moment for me */
+a { text-decoration: none; color:#A2B3BE; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
