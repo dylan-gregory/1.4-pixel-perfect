@@ -113,9 +113,9 @@ nav::after {
 
 .header-links li span {
   display: inline-block;
-  transform: scaleY(1.5);
+  transform: scaleY(1.15);
   font-weight: bold;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
 }
 
 
@@ -197,11 +197,12 @@ p {
   font-size: 56px;
   height: 126px;
   width: 571px;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
   margin-top: 70px;
   padding-bottom: 0px;
   margin-bottom: 13px;
   color: #033550;
+  transform: scaleY(1.1);
 }
 
 
